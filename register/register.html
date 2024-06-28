@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Global CSS (CSS rules you want applied to all pages) -->
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/register/register.css">
+    <script src="/auth.js"></script>
+</head>
+
+<body>
+    <nav class="wrapper">
+        <nav class=" nav">
+            <div class="nav-logo">
+                <p></p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="/index.html" class="link">Home/Login</a></li>
+                </ul>
+            </div>
+           
+        </nav>
+    <div class="wrapper">
+        
+        <div id="errorMessage"></div>
+        <div class="form-box"></div>
+        <form action="">
+            <h1>Register</h1>
+            <div class="input-box">
+                <div>
+                    <input type="text" id="username" placeholder="User Name">
+                    <i class='bx bx-user'></i>
+                </div>
+            </div>
+            <div class="input-box">
+                <div>
+                    <input type="text" id="fullname" placeholder="Full Name">
+                    <i class='bx bx-rename' ></i>
+                </div>
+            </div>
+                <div class="input-box">
+                    <div>
+                    <input type="password" id="password" placeholder="Password">
+                    <i class='bx bxs-lock-alt' ></i>
+                    </div>
+                </div> 
+                <p>Dont forget to remember your password!</p>
+            <button class="btn" id="registerButton" type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+<script src="/register/register.js"></script>
+
+</html>
